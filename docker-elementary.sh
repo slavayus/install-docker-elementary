@@ -19,4 +19,6 @@ sudo apt-get install docker-ce;
 
 sudo systemctl enable docker;
 
+sudo usermod -a -G docker $USER;
+
 echo 'All done!'
